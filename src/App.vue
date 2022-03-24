@@ -1,11 +1,9 @@
 <template>
   <div id="app" class="app">
-    
       <FilterList/>
       <CardList/>
   </div>
 </template>
-
 <script>
 import FilterList from './components/Filter.vue';
 import CardList from './components/Cardlist.vue';
